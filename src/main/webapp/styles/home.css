@@ -38,14 +38,27 @@ html {
 }
 
 /*Twitter*/
-.Twitter { 
+.qq {
 	font: normal 11px Georgia, "Times New Roman", Times, serif; 
-	color:#d6e8f5; 
-	background:url(../images/twitter.gif) right no-repeat; 
+	color:#d6e8f5;
 	padding:10px 10px; 
 	margin:44px 0 0 0; 
-	width:150px; 
-	float:right; 
+	float:right;
+}
+
+.qq > a {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.qq > a:hover {
+    text-decoration: none;
+    color: #FC0;
+}
+
+.qq img {
+    width: 20px;
+    margin-left: 6px;
 }
 
 /* menu */	
@@ -226,7 +239,7 @@ html {
 
 /********************topi***************/
 .topi { 
-	width:946px; 
+	width:966px;
 	margin:0 auto; 
 	padding:0 0 0 20px; 
 	background:#f2f3eb; 
@@ -329,67 +342,67 @@ html {
 }
 
 /********** contact form **********/
-#contactform { 
-	margin:0; 
-	padding:5px 10px; 
+#contactform {
+	margin:0;
+	padding:5px 10px;
 }
-#contactform * { 
-	color:#222222; 
+#contactform * {
+	color:#222222;
 }
-#contactform ol { 
-	margin:0; 
-	padding:0; 
-	list-style:none; 
+#contactform ol {
+	margin:0;
+	padding:0;
+	list-style:none;
 }
-#contactform li { 
-	margin:0; 
-	padding:0; 
-	background:none; 
-	border:none; 
-	display:block; 
+#contactform li {
+	margin:0;
+	padding:0;
+	background:none;
+	border:none;
+	display:block;
 }
-#contactform li.buttons { 
-	margin:5px 0 5px 0; 
+#contactform li.buttons {
+	margin:5px 0 5px 0;
 }
-#contactform label { 
-	margin:0; 
-	width:110px; 
-	display:block; 
-	padding:5px 0; 
-	font:bold 12px Georgia, "Times New Roman", Times, serif; 
-	color:#656565; 
-	text-transform:capitalize; 
+#contactform label {
+	margin:0;
+	width:110px;
+	display:block;
+	padding:5px 0;
+	font:bold 12px Georgia, "Times New Roman", Times, serif;
+	color:#656565;
+	text-transform:capitalize;
 }
-#contactform label span { 
-	font:normal 10px Arial, Helvetica, sans-serif; 
+#contactform label span {
+	font:normal 10px Arial, Helvetica, sans-serif;
 }
-#contactform input.text { 
-	width:440px; 
-	border:1px solid #dcdcdc; 
-	margin:5px 0; 
-	padding:5px 2px; 
-	height:16px; 
-	background:#f5f5f5; 
+#contactform input.text {
+	width:440px;
+	border:1px solid #dcdcdc;
+	margin:5px 0;
+	padding:5px 2px;
+	height:16px;
+	background:#f5f5f5;
 }
-#contactform textarea { 
-	width:440px; 
-	border:1px solid #dcdcdc; 
-	margin:10px 0; 
-	padding:2px; 
-	background:#f5f5f5; 
+#contactform textarea {
+	width:440px;
+	border:1px solid #dcdcdc;
+	margin:10px 0;
+	padding:2px;
+	background:#f5f5f5;
 }
-#contactform li.buttons input { 
-	padding:3px 0; 
-	margin:0; 
-	border:0; 
-	color:#FFFFEC; 
+#contactform li.buttons input {
+	padding:3px 0;
+	margin:0;
+	border:0;
+	color:#FFFFEC;
 }
-p.response { 
-	text-align:center; 
-	color:#2c2c2c; 
-	font: bold 11px Arial, Helvetica, sans-serif; 
-	line-height:1.8em; 
-	width:auto; 
+p.response {
+	text-align:center;
+	color:#2c2c2c;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	line-height:1.8em;
+	width:auto;
 }
 
 /********** footer **********/
@@ -426,6 +439,16 @@ p.response {
 	font:normal 11px Tahoma, Geneva, sans-serif; 
 	padding:0 1px; 
 }
+.footer .resize div .phone {
+    font-size: 12px;
+}
+.copyright {
+    text-align: center;
+    color: #FC0;
+    margin-bottom: 25px;
+}
+
+
 .text_left { 
 	text-align:right; 
 }

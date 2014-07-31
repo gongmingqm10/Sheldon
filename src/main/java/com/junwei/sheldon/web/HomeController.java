@@ -27,4 +27,7 @@ public class HomeController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping("/contact")
+    public String contact() {return "contact";}
 }

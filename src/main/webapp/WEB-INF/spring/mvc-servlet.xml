@@ -13,6 +13,9 @@
 	<mvc:resources mapping="/fonts/**" location="/fonts/" />
 	<mvc:resources mapping="/styles/**" location="/styles/" />
 	<mvc:resources mapping="/images/**" location="/images/" />
+	<mvc:resources mapping="/bootstrap-3.2.0/css/**" location="/bootstrap-3.2.0/css/" />
+	<mvc:resources mapping="/bootstrap-3.2.0/fonts/**" location="/bootstrap-3.2.0/fonts/" />
+	<mvc:resources mapping="/bootstrap-3.2.0/js/**" location="/bootstrap-3.2.0/js/" />
 
     <mvc:annotation-driven />
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
