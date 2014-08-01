@@ -1,5 +1,7 @@
 <jsp:include page="header.jsp"/>
 
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=OBtV6IfbhceKthpWETmWFCf3"></script>
+
 <div class="slider2">
     <div class="slice12">
         <h2>Contact Us </h2>
@@ -28,9 +30,28 @@
                 周一至周日 8:00-17:00</strong></p>
             <p>&nbsp;</p>
         </div>
+        <div id="map" style="float: left; height:500px; width: 100%;"></div>
         <div class="clr"></div>
     </div>
     <div class="clr"></div>
+
+
 </div>
+
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("map");                        // 创建Map实例
+    map.centerAndZoom(new BMap.Point(112.8863774, 23.2979498), 11);     // 初始化地图,设置中心点坐标和地图级别
+    map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+    map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+    map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+    map.enableScrollWheelZoom();                            //启用滚轮放大缩小
+    map.addControl(new BMap.MapTypeControl());          //添加地图类型控件
+    var local = new BMap.LocalSearch(map, {
+        renderOptions: {map: map, panel: "r-result"}
+    });
+    local.search("巨君五金加工厂");
+
+</script>
 
 <jsp:include page="footer.jsp"/>

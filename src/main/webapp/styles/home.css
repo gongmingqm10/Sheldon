@@ -165,7 +165,7 @@ html {
 .slider div div div p { 
 	width:300px; 
 	float:left; 
-	font:normal 11px Georgia, "Times New Roman", Times, serif; 
+	font:normal 14px Georgia, "Times New Roman", Times, serif;
 	color:#262626; 
 	margin:0; 
 	padding:10px 0 0 40px; 
@@ -210,7 +210,7 @@ html {
 	text-decoration:none; 
 }
 .body p { 
-	font:normal 11px Georgia, "Times New Roman", Times, serif; 
+	font:normal 14px Georgia, "Times New Roman", Times, serif;
 	color:#8d8d8d; 
 	line-height:1.8em; 
 	padding:5px; 
@@ -314,9 +314,9 @@ html {
 }
 
 /*News */
-.News { 
-	width:307px; 
-	float: left; 
+.News {
+    width: 100%;
+    float: left;
 	margin:5px 15px; 
 	padding:5px 10px; 
 }
