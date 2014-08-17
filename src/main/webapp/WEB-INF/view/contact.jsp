@@ -4,7 +4,7 @@
 
 <div class="slider2">
     <div class="slice12">
-        <h2>Contact Us </h2>
+        <h2>联系我们 </h2>
     </div>
 </div>
 <div class="clr"></div>
@@ -14,6 +14,7 @@
             <p>
                 佛山市君威五金加工厂专业进行五金加工，包括退磁，抛光，发亮等五金工艺，拥有多台设备，诚实守信，经验丰富。交货及时，质量实行“三包”。
             </p>
+            <p>&nbsp;</p>
             <p><strong>欢迎联系</strong></p>
             <div class="bg"></div>
             <p><strong>张先生: 13886414858 <br />

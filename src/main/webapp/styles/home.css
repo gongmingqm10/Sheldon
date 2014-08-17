@@ -195,13 +195,13 @@ html {
 }
 .body h2 { 
 	font:normal 24px Georgia, "Times New Roman", Times, serif; 
-	color:#373737; 
+	color:#000;
 	padding:10px 5px; 
 	margin:0; 
 }
 .body h3 { 
 	font:normal 18px Georgia, "Times New Roman", Times, serif; 
-	color:#373737; 
+	color:#FC0;
 	padding:10px 5px; 
 }
 .body a { 
@@ -211,7 +211,7 @@ html {
 }
 .body p { 
 	font:normal 14px Georgia, "Times New Roman", Times, serif;
-	color:#8d8d8d; 
+	color:#333;
 	line-height:1.8em; 
 	padding:5px; 
 	margin:0; 
@@ -282,10 +282,8 @@ html {
 
 /*******************Welcome*****************/
 .Welcome { 
-	width:531px; 
-	margin:5px 15px; 
-	float:left; 
-	padding:5px 10px; 
+	margin:0 15px;
+	padding:5px 10px;
 }
 .Welcome ul { 
 	width:250px; 
@@ -315,9 +313,7 @@ html {
 
 /*News */
 .News {
-    width: 100%;
-    float: left;
-	margin:5px 15px; 
+	margin:0 15px;
 	padding:5px 10px; 
 }
 .News ul { 

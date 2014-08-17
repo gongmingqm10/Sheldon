@@ -18,9 +18,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="index" class="active">首页</a></li>
-                    <li><a href="services">主营业务</a></li>
-                    <li><a href="portfolio">产品特色</a></li>
-                    <li><a href="portfolio">企业文化</a></li>
+                    <li><a href="product">产品特色</a></li>
                     <li><a href="about">关于我们</a></li>
                     <li><a href="contact">联系我们</a></li>
                 </ul>
