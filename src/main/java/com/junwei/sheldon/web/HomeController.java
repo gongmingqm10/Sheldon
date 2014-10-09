@@ -1,12 +1,8 @@
 package com.junwei.sheldon.web;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
-
-import java.util.List;
 
 /**
  * Created by minggong on 7/31/14.
@@ -22,18 +18,23 @@ public class HomeController {
     }
 
 
-
     @RequestMapping("/index")
     public String index() {
         return "index";
     }
 
     @RequestMapping("/contact")
-    public String contact() {return "contact";}
+    public String contact() {
+        return "contact";
+    }
 
     @RequestMapping("/about")
-    public String about() {return "about";}
+    public String about() {
+        return "about";
+    }
 
     @RequestMapping("/product")
-    public String product() {return "product";}
+    public String product() {
+        return "product";
+    }
 }
