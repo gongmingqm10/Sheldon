@@ -10,22 +10,6 @@
         });
     });
 </script>
-<style type="text/css">
-    #slider { margin:0; padding:0; list-style:none; }
-    #slider ul,
-    #slider li { margin:0; padding:0; list-style:none; }
-    /*
-    define width and height of list item (slide)
-    entire slider area will adjust according to the parameters provided here
-    */
-    #slider li { width:966px; height:348px; overflow:hidden; }
-    p#controls { margin:0; position:relative; }
-    #prevBtn,
-    #nextBtn { display:block; margin:0; overflow:hidden; width:13px; height:28px; position:absolute; left: -13px; top:-210px; }
-    #nextBtn { left:966px; }
-    #prevBtn a { display:block; width:13px; height:28px; background:url(images/l_arrow.gif) no-repeat 0 0; }
-    #nextBtn a { display:block; width:13px; height:28px; background:url(images/r_arrow.gif) no-repeat 0 0; }
-</style>
 
 <div class="slider">
     <div class="slice1">
@@ -33,32 +17,27 @@
             <ul>
                 <li>
                     <div>
-                        <p class="img"><img src="images/simple_text_img_1.jpg" alt="screen 1" width="539" height="292" /></p>
-                        <h2>Our company <br />
-                            can help your <br />
-                            busness grow.</h2>
-                        <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. <a href="#"></a></p>
-                        <p><a href="#">more information...</a></p>
+                        <p class="img"><img src="images/product1.jpg" alt="screen 1" width="539" height="292" /></p>
+                        <h2>佛山君威 <br />
+                            专业五金加工 </h2>
+                        <p>我们专注于退磁，抛光，发亮等五金工艺，技艺精湛，拥有多台精益设备</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <p class="img"><img src="images/simple_text_img_2.jpg" alt="screen 2" width="539" height="292" /></p>
-                        <h2>Our company <br />
-                            can help your <br />
-                            busness grow.</h2>
-                        <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. <a href="#"></a></p>
-                        <p><a href="#">more information...</a></p>
+                        <p class="img"><img src="images/product2.jpg" alt="screen 3" width="539" height="292" /></p>
+                        <h2>佛山君威 <br />
+                            货美价廉
+                        </h2>
+                        <p>我们在保证产品质量的同时力争把价格做到同行最低，佛山君威，您永远的商业合作伙伴</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <p class="img"><img src="images/simple_text_img_3.jpg" alt="screen 3" width="539" height="292" /></p>
-                        <h2>Our company <br />
-                            can help your <br />
-                            busness grow.</h2>
-                        <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. <a href="#"></a></p>
-                        <p><a href="#">more information...</a></p>
+                        <p class="img"><img src="images/product3.jpg" alt="screen 2" width="539" height="292" /></p>
+                        <h2>佛山君威 <br />
+                            客户至上</h2>
+                        <p>我们拥有经验丰富的工艺团队，诚实守信的作风打造了我们的今天。我们永远秉行客户至上的服务宗旨，力争让每个客户满意，所有产品质量均实现“三包”</p>
                     </div>
                 </li>
             </ul>
@@ -69,59 +48,16 @@
 <div class="body">
     <div class="topi">
         <div class="blogi">
-            <h2 class="what">What We Do</h2>
-            <p><strong>Lorem Ipsum passages,</strong> and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />
-                Why do we use it?</p>
-            <p><a href="#">more info</a></p>
+            <h2 class="what">服务范围</h2>
+            <p>公司主营不锈钢退磁加工和销售金属光亮剂，我们力争用最优质的服务和最实惠的价格助你获得商业的成功</p>
         </div>
         <div class="blogi">
-            <h2 class="Our">Our Support</h2>
-            <p><strong>Lorem Ipsum passages,</strong> and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />
-                Why do we use it?</p>
-            <p><a href="#">more info</a></p>
+            <h2 class="Our">选择我们</h2>
+            <p>公司引进先进退磁机生产线和氨分解炉，并通过对温度以及氧气的精确控制，保护原材料退磁过程中不贬值，并且抛光后效果光亮一新</p>
         </div>
         <div class="blogi">
-            <h2 class="work">Our Work</h2>
-            <p><strong>Lorem Ipsum passages,</strong> and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />
-                Why do we use it?</p>
-            <p><a href="#">more info</a></p>
-        </div>
-        <div class="clr"></div>
-    </div>
-    <div class="body_resize">
-        <div class="News">
-            <h2>News &amp; Events</h2>
-            <p><strong>5th April 2009</strong></p>
-            <div class="bg"></div>
-            <p>Integer mauris. Cras iaculis viverra dolorqw. Nulla suscipit. Proin eu sapien ac sem fermentum sollicitudin.</p>
-            <p>&nbsp;</p>
-            <p><strong>6th April 2009</strong></p>
-            <div class="bg"></div>
-            <p>Integer mauris. Cras iaculis viverra dolorqw. Nulla suscipit. Proin eu sapien ac sem fermentum sollicitudin.</p>
-            <p></p>
-            <p><strong>7th April 2009</strong></p>
-            <div class="bg"></div>
-            <p>Integer mauris. Cras iaculis viverra dolorqw. Nulla suscipit. Proin eu sapien ac sem fermentum sollicitudin.</p>
-            <p><a href="#">+ more news</a></p>
-            <p></p>
-        </div>
-        <div class="Welcome">
-            <h2>Welcome to our website</h2>
-            <p><strong>Fusce vehicula dignissim ligula. </strong></p>
-            <div class="bg"></div>
-            <p>Vestibulum sit amet neque eu neque suscipit consequat quis vel risus. Vestibulum vehicula purus nec dui accumsan fermentum. Suspendisse potenti. Ut dapibus est id odio pretium blandit in eget leo. </p>
-            <p>Aliquam erat volutpat. Curabitur blandit odio eget odio eleifend vel mattis augue convallis. Praesent fringilla, eros et tristique tempus, libero metus porttitor velit, at ultrices eros dolor placerat nunc. Fusce ac egestas ante.</p>
-            <div class="bg"></div>
-            <ul>
-                <li>Sed congue, dui vel tristique mollis.</li>
-                <li>Morbi eget sem. Nam mollis. </li>
-                <li>Donec sed velit ut tellus fermentum.</li>
-            </ul>
-            <ul>
-                <li>Sed congue, dui vel tristique mollis.</li>
-                <li>Morbi eget sem. Nam mollis. </li>
-                <li>Donec sed velit ut tellus fermentum.</li>
-            </ul>
+            <h2 class="work">商业合作</h2>
+            <p>公司营业不久，即与众多客户开始了长期而稳定的合作。我们的退磁加工生产线以及退磁工艺更是受到了客户的好评。我们低廉的价格更是在行业竖立了良好的口碑</p>
         </div>
         <div class="clr"></div>
     </div>

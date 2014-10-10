@@ -174,8 +174,7 @@ html {
 .slider div div div p.img { 
 	width:590px; 
 	float:right; 
-	padding:40px 0 0 0; 
-	margin:0; 
+	margin:0;
 }
 
 .slider div div div a { 
@@ -463,3 +462,20 @@ li.bg,
 	margin:5px 0; 
 	background:none; 
 }
+
+/*****Slide element****/
+
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/*
+define width and height of list item (slide)
+entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:966px; height:348px; overflow:hidden; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:13px; height:28px; position:absolute; left: -13px; top:-210px; }
+#nextBtn { left:966px; }
+#prevBtn a { display:block; width:13px; height:28px; background:url(../images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:13px; height:28px; background:url(../images/r_arrow.gif) no-repeat 0 0; }
